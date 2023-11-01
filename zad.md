@@ -1,0 +1,9 @@
+Contemporary goods can be transported by rail, airplanes, or ships, depending on the needs. In this project, we will focus on the shipment of goods by sea vessels A characteristic feature of modern transport is the use of containers, which have their own specific requirements depending on the type of cargo being transported.
+For instance, bananas are transported in hermetically sealed containers with a nitrogen atmosphere and require power supply, quartz is transported in containers designed for bulk cargo, electronics in general-purpose containers, and juices and chemicals in special tank containers. Each of these containers has common features like weight and characteristics specific to their type. Special container ships, known as container carriers, can transport up to 15,000 containers on their decks, and proper weight distribution on the ship is crucial
+given the substantial mass.
+Please search for information about the types, sizes, and other characteristics of containers and then create a program that:
+1. Creates a class hierarchy describing all possible containers used in maritime transport.
+2. Generates a list of 15,000 containers (including randomly selected data such as weight and cargo) and saves it in a text file.
+3. Accurately simulates a modern container ship with the ability to load containers (assuming they are stacked in rows).
+4. Reads the list of containers from the file and arranges them in a loading sequence while maintaining a safe weight distribution for the ship.
+5. Saves a manifest file with the container number, unique container position, weight, and cargo (data for one container per line, separated by tabs).
